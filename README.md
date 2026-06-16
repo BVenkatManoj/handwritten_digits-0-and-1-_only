@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a binary classification neural network using TensorFlow/Keras to recognize handwritten digits **0** and **1**. The model is trained on preprocessed image data and achieves high performance on both training and test sets.
+This project implements a binary classification neural network using TensorFlow/Keras to recognize handwritten digits **0** and **1**. The model is trained on preprocessed image data and achieves high[...] 
 
 The project covers the complete machine learning workflow, including:
 - Data loading and preprocessing
@@ -11,6 +11,16 @@ The project covers the complete machine learning workflow, including:
 - Performance evaluation with multiple metrics
 - Result visualization and analysis
 - Individual sample predictions
+
+---
+
+## Featured Visualization
+
+![Sample model predictions on test digits](images/sample_predictions.png)
+
+Figure: Example predictions produced by the trained model on randomly sampled test images. Each thumbnail is a 20×20 grayscale image (flattened to 400 features). The annotation below each image shows the true label, the model's predicted label, and the predicted probability from the sigmoid output. This visualization highlights the model's confident and correct classification of digits 0 and 1; use it as a quick visual summary of model performance.
+
+> Tip: Add your image file at `images/sample_predictions.png` in the repository for this preview to render on GitHub. Alternatively, replace the path with a public URL to an image (for example, a raw GitHub URL if the image is already uploaded).
 
 ---
 
@@ -211,7 +221,7 @@ Extend the model to classify all digits (0–9) instead of just two classes, cre
 Investigate the impact of additional hidden layers and neurons on model performance and feature learning capacity.
 
 ### 3. Convolutional Neural Networks (CNNs)
-Replace the fully connected network with a CNN architecture optimized for image data. CNNs are specifically designed for spatial feature extraction and typically achieve superior performance on image classification tasks.
+Replace the fully connected network with a CNN architecture optimized for image data. CNNs are specifically designed for spatial feature extraction and typically achieve superior performance on i[...]
 
 ### 4. Hyperparameter Optimization
 Systematically tune:
@@ -266,7 +276,7 @@ This reveals which pixels most influence predictions and improves model transpar
 
 ## Conclusion
 
-This project demonstrates a successful neural network implementation for handwritten digit classification. By focusing on binary classification (digits 0 and 1), the model achieved perfect accuracy, precision, and recall on both training and test sets, validating the effectiveness of the chosen architecture and training approach.
+This project demonstrates a successful neural network implementation for handwritten digit classification. By focusing on binary classification (digits 0 and 1), the model achieved perfect accuracy, p[...] 
 
 The project serves as a solid foundation for extending to more complex digit recognition tasks and provides a complete template for machine learning workflows in image classification.
 
