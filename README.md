@@ -16,7 +16,7 @@ The project covers the complete machine learning workflow, including:
 
 ## Featured Visualization
 
-![Sample model predictions on test digits](images/sample_predictions.png)
+![Sample model predictions on test digits](sample_predictions.png)
 
 Figure: Example predictions produced by the trained model on randomly sampled test images. Each thumbnail is a 20×20 grayscale image (flattened to 400 features). The annotation below each image shows the true label, the model's predicted label, and the predicted probability from the sigmoid output. This visualization highlights the model's confident and correct classification of digits 0 and 1; use it as a quick visual summary of model performance.
 
