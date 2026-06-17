@@ -6,7 +6,7 @@
 
 A clean, educational implementation of a **binary neural network classifier** for handwritten digits **0** and **1** using TensorFlow/Keras. The model achieves perfect accuracy on a filtered subset of the classic handwritten digits dataset.
 
-![Sample model predictions on test digits](images/sample_predictions.png)
+![Sample model predictions on test digits](sample_predictions.png)
 
 *Figure: Model predictions on randomly sampled test images. Each 20×20 grayscale thumbnail shows the true label, predicted label, and confidence score.*
 
