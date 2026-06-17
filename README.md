@@ -37,7 +37,7 @@ The model is built using TensorFlow's Sequential API with the following structur
 |-------|-------|------------|---------|
 | Input Layer | 400 Features | - | Raw pixel values |
 | Hidden Layer 1 | 10 | ReLU | Non-linear feature extraction |
-| Hidden Layer 2 | 10 | ReLU | Additional feature learning |
+| Hidden Layer 2 | 10 | Sigmoid | Additional non-linearity + bounded output |
 | Output Layer | 1 | Sigmoid | Binary probability output |
 ### Design Rationale
 **ReLU Activation (Hidden Layers)**
