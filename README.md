@@ -22,11 +22,9 @@ This project focuses on binary image classification using a feedforward neural n
 
 ## 📸 Sample Predictions
 
-![Sample Predictions](images/sample_predictions.png)
+![Sample Predictions](sample_predictions.png)
 
 *Example predictions on randomly selected test images showing the true label, predicted label, and model confidence.*
-
-> **Note:** Add your prediction image to `images/sample_predictions.png` or replace the path with a public image URL.
 
 ---
 
